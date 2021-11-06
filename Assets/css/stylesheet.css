@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Helvrtica, Arial, sans-serif;
+    color: rgb(255, 192, 203)
+}
+header{
+    background-color: navy;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+.header-info{
+    display: flex;
+    flex-wrap: wrap;
+    /* width: 20%; */
+    justify-content: space-between;
+    align-items: center;
+    flex:1;
+}
+header img{
+    border-radius: 50%;
+    flex:0;
+    
+}
+.general-info{
+    flex:1;
+    padding: 20px
+}
+.general-info p{
+    Position: relative;
+    left: 25px
+}
+header nav{
+    /* margin: 10px 5px; */
+    /* width: 20%; */
+    align-self: flex-end;
+    flex: 1;
+}
+header nav ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    /* align-items:flex-start; */
+    list-style: none;
+}
+header nav ul li{
+    padding: 10px 20px;
+}
+header a{
+    text-decoration: none;
+    color: pink;
+    font-weight: bold;
+    line-height: 1.4;
+    font-size: x-large;
+}
+.About-me{
+    background-color:lightblue;
+    color: lightblue;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.about-me-title{
+    flex:0
+}
+.About-me h2{
+    background-color: rgb(223, 68, 68);
+    margin: 30px auto;
+    /* width: 100%; */
+    text-align: center;
+    line-height: 2;
+    border-radius: 25px;
+    border: 5px solid navy;
+}
+.about-me-content{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /* width: 100%; */
+    /* margin: 0 auto; */
+    padding: 10px 0;
+    flex:0;
+}
+.my-info{
+    background-color: rgb(223, 68, 68);
+    margin: 10px auto;
+    /* width: 100%; */
+    border-radius: 25px;
+    flex: 1;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.my-info img{
+    width: 40%;
+    border-radius:25px;
+    flex: 0 0 33%;
+    padding: 10px;
+    
+}
+.info-text{
+    margin: 10px;
+    padding: 10px 15px;
+    /* width:70%; */
+    flex: 1 45%;
+    border: 5px solid navy;
+    border-radius: 25px;
+}
+.align-left{
+    text-align: left;
+    margin-right: 100px
+}
+.align-right{
+
+}
