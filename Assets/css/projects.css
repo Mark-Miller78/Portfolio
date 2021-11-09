@@ -1,18 +1,26 @@
+:root{
+    --main-background: #8c9caa;
+    --main-txt: #D8D5D2;
+}
 main{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     align-content:center;
     padding: 20px 50px 40px 50px;
-    border: 10px solid navy;
-    background-color: rgb(194, 160, 74);
-    width: 100vw;
+    border: 10px solid var(--main-txt);
+    background-color: var(--main-background);
+    width: 100%;
 }
 .section-title{
     text-align: center;
     line-height: 1.5;
     font-size: 40px;
-    padding-bottom: 20px
+    margin-bottom: 20px;
+    border-bottom: 5px solid;
+    width: 50%;
+    align-self: center;
+    color: var(--main-txt);
 }
 .project-list{
     display:flex;
@@ -24,7 +32,7 @@ main{
     flex-wrap: wrap;
     flex-direction: column;
     text-align: center;
-    background-color: dimgray;
+    background-color: var(--main-txt);
     border: 3px solid white;
     border-radius: 10px;
     box-shadow: 10px 5px rgba(0,0,0,0.70);
@@ -36,8 +44,12 @@ main{
     border-radius: 10px;
     height: 22vw;
 }
+.card:hover{
+    opacity: 100%;
+}
 #Lrg-img{
     flex: 1 100%;
+    max-width: 80vw;
 }
 #Lrg-img img{
     width: 100%;
