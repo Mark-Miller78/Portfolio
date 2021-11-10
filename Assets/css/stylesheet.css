@@ -61,64 +61,64 @@ header a{
     line-height: 1.4;
     font-size: x-large;
 }
-.About-me{
-    background-color:lightblue;
-    color: lightblue;
-    padding: 20px;
+main{
     display: flex;
-    flex-direction: column;
     flex-wrap: wrap;
+    align-content:center;
+    padding: 20px 50px 40px 50px;
+    border: 10px solid var(--main-txt);
+    background-color: var(--main-background);
+    width: 100%;
 }
-.about-me-title{
-    flex:0
-}
-.About-me h2{
-    background-color: rgb(223, 68, 68);
-    margin: 30px auto;
-    /* width: 100%; */
+.section-title{
     text-align: center;
-    line-height: 2;
-    border-radius: 25px;
-    border: 5px solid navy;
+    line-height: 1.5;
+    font-size: 40px;
+    margin: 5px auto 20px auto;
+    border-bottom: 5px solid;
+    width: 50%;
+    justify-self: center;
+    color: var(--main-txt);
 }
-.about-me-content{
-    display: flex;
-    flex-direction: column;
+.about-me-cards{
+    display:flex;
     flex-wrap: wrap;
     justify-content: space-around;
-    /* width: 100%; */
-    /* margin: 0 auto; */
-    padding: 10px 0;
-    flex:0;
+    margin: 0 auto;
 }
 .my-info{
-    background-color: rgb(223, 68, 68);
-    margin: 10px auto;
-    /* width: 100%; */
-    border-radius: 25px;
     flex: 1;
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    margin: 10px 10px;
+    border-radius: 10px;
+    border: 5px solid var(--main-txt);
+    background-color: var(--header-txt);
 }
 .my-info img{
-    width: 40%;
-    border-radius:25px;
-    flex: 0 0 33%;
-    padding: 10px;
-    
+    width:100%;
+    height: 33vw;
+    object-fit: cover;
+    border-bottom: 5px solid var(--main-txt);
+    border-radius: 5px 5px 0 0;
 }
 .info-text{
-    margin: 10px;
+    margin: 5px;
     padding: 10px 15px;
-    /* width:70%; */
-    flex: 1 45%;
-    border: 5px solid navy;
-    border-radius: 25px;
+    color: var(--main-txt);
+    flex: 1;
 }
-.align-left{
-    text-align: left;
-    margin-right: 100px
+.info-text h3{
+    text-align: center;
+    font-size: 25px;
+    border-bottom: 5px solid var(--main-txt);
+    width: 50%;
+    margin: 10px auto;
+    padding-bottom: 15px;
+}
+.info-text p{
+    font-size: 20px;
 }
 footer{
     background-color: var(--header-background);
