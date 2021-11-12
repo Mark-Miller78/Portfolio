@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Me</title>
     <link rel="stylesheet" href="./Assets/css/stylesheet.css"/>
+    <link rel="stylesheet" href="./Assets/css/contact.css"/>
 </head>
 <body>
     <header>
@@ -29,21 +30,42 @@
     </header>
 
     <main>
-       <div class="contact-form">
-           <h3>Reach Out!</h3>
-            <form>
-                <label for="contact-name">Your Name</label>
-                <input type="text" id="contact-name" placeholder="Your Name"/>
-    
-                <label for="email">Your Email</label>
-                <input type="text" id="email" name="email" placeholder="Your Email">
-    
-                <label for="message">Your Message</label>
-                <textarea type="text" id="message" placeholder="Your message"></textarea>
-    
-                <button type="submit">Submit</button>
-            </form>
+        <h2 class="section-title">Reach Out!</h2>
+       <div class=contact-info>
+           <section class="contact-form">
+                <form>
+                    <label for="contact-name">Your Name</label>
+                    <input type="text" id="contact-name" placeholder="Name"/>
+        
+                    <label for="email">Your Email</label>
+                    <input type="text" id="email" name="email" placeholder="Email">
+        
+                    <label for="message">Your Message</label>
+                    <textarea type="text" id="message" placeholder="Message"></textarea>
+        
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+
+            <section class="check-out">
+                <h3>Check out my:</h3>
+                <br>
+                <ul>
+                    <li>
+                        <img src="./Assets/images/GitHub-logo.png"/> <a href="https://github.com/Mark-Miller78" target="_blank" rel="noopener noreferrer">GitHub</a>
+                    </li>
+                    <li>
+                        <img src="./Assets/images/linkedin-logo.png" height="32px" width="32px"/> <a href="https://www.linkedin.com/in/mark-miller-189a8068/" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+                    </li>
+                    <li>
+                        <img src="./Assets/images/resume.jpg" height="32px" width="32px"/> <a href="./Assets/Resume-2021.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+                    </li> 
+                </ul>
+            </section>
+
        </div>
+
+
     </main>
 
     <footer>

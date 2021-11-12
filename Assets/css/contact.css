@@ -1,0 +1,72 @@
+.contact{
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 50vh;
+}
+.contact-form{
+    flex:1 50%; 
+    border-right: 3px solid var(--main-txt);
+    padding-right: 15px;
+}
+
+.contact-form label{
+   padding: 3px;
+   line-height: 1.8;
+   border-bottom: 3px solid var(--main-txt);
+   color:var(--header-txt);
+   font-size: 18px;
+
+}
+.contact-form input, .contact-form textarea{
+    display:block;
+    width: 100%;
+    padding: 5px 10px;
+    margin: 15px auto;
+    border: 3px solid var(--header-txt);
+    font-size: 13px;
+    background-color: var(--main-txt);
+    color: var(--header-txt);
+    border-radius:10px
+}
+
+.contact-form button{
+    width: 100%;
+    border-radius: 10px;
+    background-color: var(--header-background);
+    color: var(--header-txt);
+    margin: 10px auto;
+    font-size: 16px;
+    padding: 8px
+}
+
+.check-out{
+    text-align: center;
+    flex:1 50%;
+    color: var(--header-txt);
+    font-size: 25px;
+    padding: 9px auto
+}
+
+.check-out h3{
+    border-bottom: 3px solid var(--header-txt);
+    width: 50%;
+    margin: 9px auto;
+    font-size: 30px
+}
+.check-out ul{
+    list-style: none;
+    text-align: center;
+}
+.check-out ul li{
+    padding: 20px 15px;
+}
+.check-out ul li a{
+    text-decoration: none;
+    color: var(--header-txt)
+}
