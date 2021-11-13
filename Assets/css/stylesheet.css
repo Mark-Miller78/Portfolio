@@ -26,7 +26,6 @@ header{
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    /* flex:1; */
     font-size:25px;
 }
 header img{
@@ -166,18 +165,48 @@ footer a{
         align-self: center;
     }
 }
+@media screen and (max-width:639px){
+    .general-info{
+        flex-direction: column;
+    }
+}
+@media screen and (max-width: 472px){
+    header img{
+        height:75px;
+    }
+    .general-info{
+        flex-direction: row;
+    }
+    .general-info h1{
+        font-size: 25px;
+        align-self: center;
+    }
+    .general-info p{
+        font-size: 20px
+    }
+    .info-text p {
+        font-size:14px;
+    }
+    footer{
+        font-size: 15px;
+    }
 
+}
 @media screen and (max-width: 426px){
     .section-title{
         font-size: 25px;
         width:90%;
     }
 
-    header img{
-        height:75px;
+}
+@media screen and (max-width: 380px){
+    header nav ul li{
+        padding: 6px 5px;
     }
 
-    footer{
-        font-size: 20px;
+    .general-info{
+        padding: 5px;
     }
+
+
 }

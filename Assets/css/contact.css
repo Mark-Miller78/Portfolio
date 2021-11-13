@@ -70,3 +70,24 @@
     text-decoration: none;
     color: var(--header-txt)
 }
+
+@media screen and (max-width: 620px){
+    .contact-info{
+        height: auto;
+        flex-direction:column;
+    }
+    .contact-form{
+        border-right: none;
+        border-bottom: 3px solid var(--main-txt);
+        padding: 10px 5px 15px 5px;
+    }
+    .check-out{
+        padding-top: 15px;
+        font-size: 20px;
+    }
+    .check-out h3{
+        font-size: 25px;
+        width: 80%;
+    }
+
+}
